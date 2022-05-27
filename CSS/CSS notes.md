@@ -31,3 +31,18 @@ External CSS is used to set the CSS once and have it apply to all of the pages w
 * if the website it hosted, href should contain a root /
 <link rel="stylesheet" href="/CSS/styles.css">
 You need the style sheet to be referenced in all the document pages that you want it to apply to.
+
+Debugging can be done with the Chrome Developer Tools.
+* 3 dots
+* more tools
+* Developer tools
+In the console, you can read any issues there are in loading the files.
+In the elements tab, you can see the CSS styles applied to each element.
+Here you can see overlapping style applications.
+
+The hierarchy of CSS inheritance if there are several overlapping assignments goes:
+1) In-line CSS
+2) Internal CSS
+3) External CSS 
+
+For best practice, it is recommended to store all style changes in external CSS document.

@@ -1,0 +1,80 @@
+/****** Tag selectors ******/
+/* */
+html{
+    background-color: #635666;
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-size: 65px;
+    /*width: 65%;
+    margin: 0 auto; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    /* font-family: 'Sacramento', cursive; */
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/****** Class selectors ******/
+/* */
+.top-container{
+    background-color: #D3EBCD;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    padding-top: 25px;
+}
+
+.mid-container{
+    background-color: #AEDBCE;
+    /* 
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0; */
+}
+
+.bot-container{
+    background-color: #839AA8;
+    /* 
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    margin: 0; */
+}
+
+.introduction-table{
+    width: 100%;
+}
+
+.underlined{
+    text-decoration: underline;
+}
+
+.profile-image{
+    width:100px;
+    height:100px;
+}
+
+.profile-image{
+    width: 20%;
+    height: 20%;  
+}
+
+.skill-logo{
+    width: 13%;
+    height: 13%;
+}
+
+.cfd-skill-image{
+    width: 65%;
+    height: 65%;
+}

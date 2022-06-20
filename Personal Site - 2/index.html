@@ -1,99 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <!--Title-->
         <meta charset="UTF-8">
         <meta name="description" content="Landing page for Charlie Bright's website.">
         <title>Homepage - Charlie Bright</title>
-
         <!--Style-->
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="icon" href="/images/favicon.ico" type="favicon.ico">
-
+        <link rel="icon" href="images/favicon.ico" type="favicon.ico">
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@100&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Open+Sans&family=Montserrat:wght@300;400&family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <!--Top section-->
+        <!--Top container: Profile image and name.-->
         <div class="top-container">
-
-            <table class="introduction-table" align="center" cellspacing="30">
-                
-                <colgroup>
-                    <col align="left">
-                    <col align="center">
-                </colgroup>
-
+            <table class="introduction-table" cellspacing="20" align="center">
                 <tr>
-                    <td>
-                        <img class="profile-image" src="images/index/Charlie.png" alt="Photo of Charlie">
-                    </td>
-                    <td>
+                    <td> <img class="profile-image" src="images/index/Charlie.png" alt="Photo of Charlie."> </td>
+                    <td class="introduction-name">
                         <h1>Charlie Bright</h1>
-                        My <span class="underlined">progress</span> tracking site.
+                        <p class="introduction-text">Tracking my <span class="emphasised">progress</span> with programming.</p>
                     </td>
                 </tr>
-            
             </table>
-
         </div>
 
-        <!--Middle section-->
+        <!--Middle container: Skills and PhD.-->
         <div class="mid-container">
-            <div class="profile">
-                <h2>Welcome.</h2>
-                <p>I am a PhD student using open-source CFD code for blood flow analysis.<br> 
-                    My work interests have expanded to SysAdmin, Git, Python, and web-development!</p>
+            <div>
+                <h2>About.</h2>
+                <p class="body-text">A PhD student at the University of Manchester using open-source software for computational fluid dynamics.<br>
+                    My work specifically looks at the longevity of coronary artery bypass grafts and factors affecting it.<br> 
+                    Now interested in learning development tools more thoroughly! <br>
+                    For more information about me personally, see <a href="about-me.html">here</a>!</p>
             </div>
-            <hr>
+            <hr size="3" noshade>
 
-            <div class="skills">
-                <h2>My Skills.</h2>
-                <div class="skill-row">
-                    <img class="skill-logo" src="images/index/BASH.png" alt="Logo of the command line">
-                    <img class="skill-logo" src="images/index/Python.png" alt="Logo for the Python language.">
-                    <h3>Lorem & Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+            <div class="education">
+                <h2 class="education-title">Education.</h2>
+                <table class="education-table" cellspacing="15" align="center">
+                    <thead>
+                        <th align="right" class="underlined">Degree:</th>
+                        <th align="left" class="underlined">Location:</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td align="right"><strong>PhD Student - <em>Biomedical Engineering.<br>2020-2023</em></strong></td>
+                            <td align="left">The University of Manchester, <br>UK</td>
+                        </tr>
+                        <tr>
+                            <td align="right"><strong>MEng - <em>Mechanical Engineering.<br>2015-2019</strong></td>
+                            <td align="left">The University of Manchester, <br>UK</td>
+                            </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr size="3" noshade>
+
+            <div class="skills"></div>
+                <h2>Coding Interests.</h2>
+                <div class="code-row">
+                    <p class="body-text">Please click on the icons to navigate to the relevant pages for each.<br>
+                        Each directory contains a mix of notes from my studies as well as links to the relevant GitHub pages. <br>
+                        Here you can find any appropriate files or projects I have previously worked on.</p>
+                    <img class="code-logo" src="images/index/code/BASH.png" alt="Logo representing shell interface.">
+                    <img class="code-logo" src="images/index/code/Python.png" alt="Logo for the Python language.">
+                    <img class="code-logo" src="images/index/code/HTML.png" alt="Logo for the HTML language.">
+                    <img class="code-logo" src="images/index/code/CSS.png" alt="Logo for the CSS language.">
+                    <a href="https://github.com/CJBright"><img class="code-logo" src="images/index/code/GitHub.png" alt="Logo for the GitHub web platform."></a>
+                    <p class="body-text">I am also familiar with the MATLAB scripting language and have brief experience with R.</p>
                 </div>
+                <hr size="3" noshade>
                 
-                <div class="skill-row">
-                    <img class="cfd-skill-image" src="images/index/CFD.jpg" alt="CFD image">
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+                <div class="phd-row">
+                    <h2>PhD Work.</h2>
+                    <p class="body-text">Here I plan to document some of the core developments through the course of my PhD. <br>
+                        At present, the image will direct the reader to my <a href="images/index/Charlie.png">second-year progression report</a>.</p>
+                    <img class="cfd-skill-image" src="images/index/CFD.jpg" alt="Image of results from a CFD study.">
                 </div>
-            </div>
-            <hr>
-
-            <div class="contact-me">
-                <h2>Get In Touch</h2>
-                <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-                <a class="btn" href="mailto:charliebright@hotmail.co.uk">CONTACT ME</a>
             </div>
         </div>
             
-        <!--Bottom section-->
+        <!--Bottom container: Contact me and other links.-->
         <div class="bot-container">
-            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-            <p>© Charlie Bright.</p>
+            <div class="contact-me">
+                <h2 class="contact-me">Get In Touch</h2>
+                <a class="button" href="mailto:charliebright@hotmail.co.uk">Email</a>
+                <a class="footer-link" href="https://www.linkedin.com/in/charliejonbright/">LinkedIn</a>
+                <a class="footer-link" href="https://twitter.com/TheCJBright">Twitter</a>
+                <p>© Charlie Bright.<br>
+                Department of Mechanical, Aerospace & Civil Engineering | <a href="https://www.manchester.ac.uk/">The University of Manchester</a> <br>
+                Room C1, Pariser Building | Manchester, M1 3BB, United Kingdom <br>
+                </p>
+            </div>
         </div>
-
     </body>
-
-    <footer>
-        <p>
-            Image attribution: <br>
-            <a href="https://www.flaticon.com/free-icons/globe" title="globe icons">Globe icons created by vectorsmarket15 - Flaticon</a><br>
-            <a href="https://www.flaticon.com/free-icons/mountain" title="mountain icons">Mountain icons created by Freepik - Flaticon</a><br>
-            <a href="https://www.flaticon.com/free-icons/cloud" title="cloud icons">Cloud icons created by Freepik - Flaticon</a><br>
-            <a href="https://www.flaticon.com/free-icons/cloud-computing" title="cloud computing icons">Cloud computing icons created by Freepik - Flaticon</a><br>
-        </p>
-    </footer>
 </html>

@@ -1,0 +1,39 @@
+/****** Tag selectors ******/
+h1{
+    color: red; 
+    font-size: 150px;
+}
+
+img{
+    background-color: blue;
+}
+
+img:active{
+    background-color: silver;
+    blur:(25px);
+}
+
+img:hover{
+    background-color: gold;
+    blur:(50px);
+}
+
+/****** Class selectors ******/
+.bacon{
+    background-color: red;
+}
+
+.emoji{
+    background-color: green;
+    blur:(4px);
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+/****** ID selectors ******/
+#greenheading{
+    color: green; 
+    font-size: 180px;
+}
